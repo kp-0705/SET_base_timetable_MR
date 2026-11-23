@@ -1,0 +1,402 @@
+{
+  "courses": [
+    {
+      "course_id": "CS501",
+      "name": "Advanced Algorithms",
+      "course_type": "lecture",
+      "faculty_id": "FAC01",
+      "batch_id": "MTECH_CS",
+      "enrollment": 35,
+      "sessions_per_week": 3,
+      "duration_per_session": 1
+    },
+    {
+      "course_id": "CS502",
+      "name": "Machine Reasoning",
+      "course_type": "lecture",
+      "faculty_id": "FAC02",
+      "batch_id": "MTECH_CS",
+      "enrollment": 35,
+      "sessions_per_week": 3,
+      "duration_per_session": 1
+    },
+    {
+      "course_id": "CS503",
+      "name": "Cloud Computing",
+      "course_type": "lecture",
+      "faculty_id": "FAC03",
+      "batch_id": "MTECH_CS",
+      "enrollment": 35,
+      "sessions_per_week": 2,
+      "duration_per_session": 1
+    },
+    {
+      "course_id": "CS504",
+      "name": "Algorithms Lab",
+      "course_type": "lab",
+      "faculty_id": "FAC01",
+      "batch_id": "MTECH_CS",
+      "enrollment": 35,
+      "sessions_per_week": 1,
+      "duration_per_session": 2
+    },
+    {
+      "course_id": "AI501",
+      "name": "Deep Learning",
+      "course_type": "lecture",
+      "faculty_id": "FAC04",
+      "batch_id": "MTECH_AI",
+      "enrollment": 30,
+      "sessions_per_week": 3,
+      "duration_per_session": 1
+    },
+    {
+      "course_id": "AI502",
+      "name": "Natural Language Processing",
+      "course_type": "lecture",
+      "faculty_id": "FAC02",
+      "batch_id": "MTECH_AI",
+      "enrollment": 30,
+      "sessions_per_week": 3,
+      "duration_per_session": 1
+    },
+    {
+      "course_id": "AI503",
+      "name": "Knowledge Graphs",
+      "course_type": "lecture",
+      "faculty_id": "FAC03",
+      "batch_id": "MTECH_AI",
+      "enrollment": 30,
+      "sessions_per_week": 2,
+      "duration_per_session": 1
+    },
+    {
+      "course_id": "AI504",
+      "name": "Deep Learning Lab",
+      "course_type": "lab",
+      "faculty_id": "FAC04",
+      "batch_id": "MTECH_AI",
+      "enrollment": 30,
+      "sessions_per_week": 1,
+      "duration_per_session": 2
+    }
+  ],
+  "faculty": [
+    {
+      "faculty_id": "FAC01",
+      "name": "Prof. Rajesh Kumar",
+      "max_weekly_load": 12,
+      "max_daily_load": 3,
+      "available_slots": null,
+      "preferred_slots": [
+        "Mon_1"
+      ]
+    },
+    {
+      "faculty_id": "FAC02",
+      "name": "Prof. Priya Sharma",
+      "max_weekly_load": 14,
+      "max_daily_load": 3,
+      "available_slots": null,
+      "preferred_slots": [
+        "Tue_2"
+      ]
+    },
+    {
+      "faculty_id": "FAC03",
+      "name": "Prof. Amit Verma",
+      "max_weekly_load": 10,
+      "max_daily_load": 3,
+      "available_slots": null,
+      "preferred_slots": [
+        "Wed_3"
+      ]
+    },
+    {
+      "faculty_id": "FAC04",
+      "name": "Prof. Sunita Rao",
+      "max_weekly_load": 12,
+      "max_daily_load": 3,
+      "available_slots": null,
+      "preferred_slots": [
+        "Mon_3"
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "room_id": "CR101",
+      "name": "Lecture Hall 1",
+      "capacity": 60,
+      "room_type": "lecture",
+      "available_slots": null
+    },
+    {
+      "room_id": "CR102",
+      "name": "Lecture Hall 2",
+      "capacity": 45,
+      "room_type": "lecture",
+      "available_slots": null
+    },
+    {
+      "room_id": "CR103",
+      "name": "Seminar Room 1",
+      "capacity": 40,
+      "room_type": "lecture",
+      "available_slots": null
+    },
+    {
+      "room_id": "CR104",
+      "name": "Seminar Room 2",
+      "capacity": 35,
+      "room_type": "lecture",
+      "available_slots": null
+    },
+    {
+      "room_id": "LAB201",
+      "name": "Computing Systems Lab",
+      "capacity": 40,
+      "room_type": "lab",
+      "available_slots": null
+    },
+    {
+      "room_id": "LAB202",
+      "name": "AI & Robotics Lab",
+      "capacity": 40,
+      "room_type": "lab",
+      "available_slots": null
+    }
+  ],
+  "batches": [
+    {
+      "batch_id": "MTECH_CS",
+      "name": "M.Tech Computer Science Sem 1",
+      "semester": 1,
+      "size": 35,
+      "enrolled_courses": [
+        "CS501"
+      ]
+    },
+    {
+      "batch_id": "MTECH_AI",
+      "name": "M.Tech Artificial Intelligence Sem 1",
+      "semester": 1,
+      "size": 30,
+      "enrolled_courses": [
+        "AI501"
+      ]
+    }
+  ],
+  "time_slots": [
+    {
+      "slot_id": "Mon_1",
+      "day": "Monday",
+      "period": 1,
+      "start_time": "09:00",
+      "end_time": "10:00"
+    },
+    {
+      "slot_id": "Mon_2",
+      "day": "Monday",
+      "period": 2,
+      "start_time": "10:00",
+      "end_time": "11:00"
+    },
+    {
+      "slot_id": "Mon_3",
+      "day": "Monday",
+      "period": 3,
+      "start_time": "11:15",
+      "end_time": "12:15"
+    },
+    {
+      "slot_id": "Mon_4",
+      "day": "Monday",
+      "period": 4,
+      "start_time": "12:15",
+      "end_time": "13:15"
+    },
+    {
+      "slot_id": "Mon_5",
+      "day": "Monday",
+      "period": 5,
+      "start_time": "14:15",
+      "end_time": "15:15"
+    },
+    {
+      "slot_id": "Mon_6",
+      "day": "Monday",
+      "period": 6,
+      "start_time": "15:15",
+      "end_time": "16:15"
+    },
+    {
+      "slot_id": "Tue_1",
+      "day": "Tuesday",
+      "period": 1,
+      "start_time": "09:00",
+      "end_time": "10:00"
+    },
+    {
+      "slot_id": "Tue_2",
+      "day": "Tuesday",
+      "period": 2,
+      "start_time": "10:00",
+      "end_time": "11:00"
+    },
+    {
+      "slot_id": "Tue_3",
+      "day": "Tuesday",
+      "period": 3,
+      "start_time": "11:15",
+      "end_time": "12:15"
+    },
+    {
+      "slot_id": "Tue_4",
+      "day": "Tuesday",
+      "period": 4,
+      "start_time": "12:15",
+      "end_time": "13:15"
+    },
+    {
+      "slot_id": "Tue_5",
+      "day": "Tuesday",
+      "period": 5,
+      "start_time": "14:15",
+      "end_time": "15:15"
+    },
+    {
+      "slot_id": "Tue_6",
+      "day": "Tuesday",
+      "period": 6,
+      "start_time": "15:15",
+      "end_time": "16:15"
+    },
+    {
+      "slot_id": "Wed_1",
+      "day": "Wednesday",
+      "period": 1,
+      "start_time": "09:00",
+      "end_time": "10:00"
+    },
+    {
+      "slot_id": "Wed_2",
+      "day": "Wednesday",
+      "period": 2,
+      "start_time": "10:00",
+      "end_time": "11:00"
+    },
+    {
+      "slot_id": "Wed_3",
+      "day": "Wednesday",
+      "period": 3,
+      "start_time": "11:15",
+      "end_time": "12:15"
+    },
+    {
+      "slot_id": "Wed_4",
+      "day": "Wednesday",
+      "period": 4,
+      "start_time": "12:15",
+      "end_time": "13:15"
+    },
+    {
+      "slot_id": "Wed_5",
+      "day": "Wednesday",
+      "period": 5,
+      "start_time": "14:15",
+      "end_time": "15:15"
+    },
+    {
+      "slot_id": "Wed_6",
+      "day": "Wednesday",
+      "period": 6,
+      "start_time": "15:15",
+      "end_time": "16:15"
+    },
+    {
+      "slot_id": "Thu_1",
+      "day": "Thursday",
+      "period": 1,
+      "start_time": "09:00",
+      "end_time": "10:00"
+    },
+    {
+      "slot_id": "Thu_2",
+      "day": "Thursday",
+      "period": 2,
+      "start_time": "10:00",
+      "end_time": "11:00"
+    },
+    {
+      "slot_id": "Thu_3",
+      "day": "Thursday",
+      "period": 3,
+      "start_time": "11:15",
+      "end_time": "12:15"
+    },
+    {
+      "slot_id": "Thu_4",
+      "day": "Thursday",
+      "period": 4,
+      "start_time": "12:15",
+      "end_time": "13:15"
+    },
+    {
+      "slot_id": "Thu_5",
+      "day": "Thursday",
+      "period": 5,
+      "start_time": "14:15",
+      "end_time": "15:15"
+    },
+    {
+      "slot_id": "Thu_6",
+      "day": "Thursday",
+      "period": 6,
+      "start_time": "15:15",
+      "end_time": "16:15"
+    },
+    {
+      "slot_id": "Fri_1",
+      "day": "Friday",
+      "period": 1,
+      "start_time": "09:00",
+      "end_time": "10:00"
+    },
+    {
+      "slot_id": "Fri_2",
+      "day": "Friday",
+      "period": 2,
+      "start_time": "10:00",
+      "end_time": "11:00"
+    },
+    {
+      "slot_id": "Fri_3",
+      "day": "Friday",
+      "period": 3,
+      "start_time": "11:15",
+      "end_time": "12:15"
+    },
+    {
+      "slot_id": "Fri_4",
+      "day": "Friday",
+      "period": 4,
+      "start_time": "12:15",
+      "end_time": "13:15"
+    },
+    {
+      "slot_id": "Fri_5",
+      "day": "Friday",
+      "period": 5,
+      "start_time": "14:15",
+      "end_time": "15:15"
+    },
+    {
+      "slot_id": "Fri_6",
+      "day": "Friday",
+      "period": 6,
+      "start_time": "15:15",
+      "end_time": "16:15"
+    }
+  ]
+}

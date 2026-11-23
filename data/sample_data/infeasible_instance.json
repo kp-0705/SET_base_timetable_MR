@@ -1,0 +1,92 @@
+{
+  "courses": [
+    {
+      "course_id": "CS601",
+      "name": "Advanced Cryptography Lab",
+      "course_type": "lab",
+      "faculty_id": "FAC10",
+      "batch_id": "BATCH_A",
+      "enrollment": 45,
+      "sessions_per_week": 1,
+      "duration_per_session": 2
+    },
+    {
+      "course_id": "CS602",
+      "name": "Network Security Lab",
+      "course_type": "lab",
+      "faculty_id": "FAC10",
+      "batch_id": "BATCH_B",
+      "enrollment": 45,
+      "sessions_per_week": 1,
+      "duration_per_session": 2
+    },
+    {
+      "course_id": "CS603",
+      "name": "High Performance Computing Lab",
+      "course_type": "lab",
+      "faculty_id": "FAC10",
+      "batch_id": "BATCH_C",
+      "enrollment": 45,
+      "sessions_per_week": 1,
+      "duration_per_session": 2
+    }
+  ],
+  "faculty": [
+    {
+      "faculty_id": "FAC10",
+      "name": "Dr. Conflicted Professor",
+      "max_weekly_load": 10,
+      "max_daily_load": 4,
+      "available_slots": ["Fri_1", "Fri_2"],
+      "preferred_slots": ["Fri_1"]
+    }
+  ],
+  "rooms": [
+    {
+      "room_id": "LAB_SPECIAL",
+      "name": "Restricted Hardware Security Lab",
+      "capacity": 50,
+      "room_type": "lab",
+      "available_slots": ["Fri_1", "Fri_2"]
+    }
+  ],
+  "batches": [
+    {
+      "batch_id": "BATCH_A",
+      "name": "M.Tech Cyber Security Sem 1",
+      "semester": 1,
+      "size": 45,
+      "enrolled_courses": ["CS601"]
+    },
+    {
+      "batch_id": "BATCH_B",
+      "name": "M.Tech Cyber Security Sem 2",
+      "semester": 2,
+      "size": 45,
+      "enrolled_courses": ["CS602"]
+    },
+    {
+      "batch_id": "BATCH_C",
+      "name": "M.Tech Cyber Security Sem 3",
+      "semester": 3,
+      "size": 45,
+      "enrolled_courses": ["CS603"]
+    }
+  ],
+  "time_slots": [
+    {
+      "slot_id": "Fri_1",
+      "day": "Friday",
+      "period": 1,
+      "start_time": "09:00",
+      "end_time": "10:00"
+    },
+    {
+      "slot_id": "Fri_2",
+      "day": "Friday",
+      "period": 2,
+      "start_time": "10:00",
+      "end_time": "11:00"
+    }
+  ]
+}

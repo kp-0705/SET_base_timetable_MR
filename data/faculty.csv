@@ -1,0 +1,5 @@
+faculty_id,name,max_weekly_load,max_daily_load,available_slots,preferred_slots
+FAC01,Prof. Rajesh Kumar,12,3,,Mon_1,Mon_2,Wed_1,Wed_2
+FAC02,Prof. Priya Sharma,14,3,,Tue_2,Tue_3,Thu_2,Thu_3
+FAC03,Prof. Amit Verma,10,3,,Wed_3,Wed_4,Fri_2,Fri_3
+FAC04,Prof. Sunita Rao,12,3,,Mon_3,Mon_4,Thu_4,Thu_5

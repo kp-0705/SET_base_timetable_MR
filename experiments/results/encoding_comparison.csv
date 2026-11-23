@@ -1,0 +1,4 @@
+Strategy,Primary Variables,Auxiliary Variables,Total Variables,Total Clauses,CNF Generation Time (s),Solving Time (s),Solving Time (ms),Status,Independent Audit Valid
+Pairwise,2020,0,2020,248688,0.0959,0.0941,94.10000000000001,SAT,True
+Sequential,2020,9872,11892,29266,0.0182,0.0169,16.9,SAT,True
+Commander,2020,4780,6800,33608,0.0175,0.0209,20.9,SAT,True

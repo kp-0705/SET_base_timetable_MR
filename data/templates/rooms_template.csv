@@ -1,0 +1,4 @@
+room_id,name,capacity,room_type,available_slots
+CR101,Lecture Hall 1,60,lecture,
+CR102,Lecture Hall 2,40,lecture,
+LAB201,Computing Lab 1,40,lab,

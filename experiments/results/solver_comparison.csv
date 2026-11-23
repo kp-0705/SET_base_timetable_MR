@@ -1,0 +1,4 @@
+Solver,Status,Mean Solve Time (s),Mean Solve Time (ms),Total Clauses,Total Variables,Conflicts,Propagations,Decisions
+GLUCOSE4,SAT,0.0182,18.2,29266,11892,62.0,20548.0,1102.0
+MINISAT22,SAT,0.01697,16.97,29266,11892,62.0,24968.0,1238.0
+CADICAL153,SAT,0.01943,19.43,29266,11892,0.0,0.0,0.0

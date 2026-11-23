@@ -1,0 +1,4 @@
+faculty_id,name,max_weekly_load,max_daily_load,available_slots,preferred_slots
+FAC01,Dr. Alan Turing,15,3,,Mon_1;Mon_2;Wed_1
+FAC02,Dr. Barbara Liskov,15,3,,
+FAC03,Dr. Claude Shannon,15,3,,

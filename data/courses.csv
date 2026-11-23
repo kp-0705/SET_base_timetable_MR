@@ -1,0 +1,9 @@
+course_id,name,course_type,faculty_id,batch_id,enrollment,sessions_per_week,duration_per_session
+CS501,Advanced Algorithms,lecture,FAC01,MTECH_CS,35,3,1
+CS502,Machine Reasoning,lecture,FAC02,MTECH_CS,35,3,1
+CS503,Cloud Computing,lecture,FAC03,MTECH_CS,35,2,1
+CS504,Algorithms Lab,lab,FAC01,MTECH_CS,35,1,2
+AI501,Deep Learning,lecture,FAC04,MTECH_AI,30,3,1
+AI502,Natural Language Processing,lecture,FAC02,MTECH_AI,30,3,1
+AI503,Knowledge Graphs,lecture,FAC03,MTECH_AI,30,2,1
+AI504,Deep Learning Lab,lab,FAC04,MTECH_AI,30,1,2

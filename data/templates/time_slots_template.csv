@@ -1,0 +1,7 @@
+slot_id,day,period,start_time,end_time
+Mon_1,Monday,1,09:00,10:00
+Mon_2,Monday,2,10:00,11:00
+Mon_3,Monday,3,11:15,12:15
+Mon_4,Monday,4,12:15,13:15
+Mon_5,Monday,5,14:15,15:15
+Mon_6,Monday,6,15:15,16:15

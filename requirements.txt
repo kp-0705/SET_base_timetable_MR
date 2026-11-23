@@ -1,0 +1,8 @@
+python-sat>=1.8.dev13
+streamlit>=1.30.0
+pandas>=2.0.0
+pydantic>=2.0.0
+plotly>=5.18.0
+matplotlib>=3.8.0
+pytest>=7.4.0
+z3-solver>=4.12.0

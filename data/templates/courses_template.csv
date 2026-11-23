@@ -1,0 +1,4 @@
+course_id,name,course_type,faculty_id,batch_id,enrollment,sessions_per_week,duration_per_session
+CS501,Advanced Algorithms,lecture,FAC01,MTECH_CS,35,3,1
+CS502,Machine Learning,lecture,FAC02,MTECH_CS,35,3,1
+CS503,AI Systems Lab,lab,FAC03,MTECH_CS,35,1,2
